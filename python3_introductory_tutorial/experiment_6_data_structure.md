@@ -9,17 +9,17 @@ python优雅易用
 python的list可以当栈,   
 可以  **.pop(),  返回最后一个**  
 **.pop(0), 返回第一个**  
-(这tnnd的,  就是个双端队列啊)  
+(这tnnd的,  就是个双端队列啊)     
 
-最马叉虫的是,  **还能 .pop(中间的idx)**,   能操作中间位置的队列,   牛到家了,  这空间复杂度多少?  时间复杂度多少?  夸张  
+最马叉虫的是,  **还能 .pop(中间的idx)**,   能操作中间位置的队列,   牛到家了,  这空间复杂度多少?  时间复杂度多少?  夸张    
 
 ## 列表推倒式
-可以lambda,  (太秀了)  
+可以lambda,  (太秀了)     
 
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640913114005)
 
 可以list = [x*x for x in range(10)],  太美了,  还可以跟if,  **反正就是写逻辑**  
-**注意:**  python的平方,  可以x**2
+**注意:**  python的平方,  可以x**2    
 
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641257413834)
 
@@ -28,13 +28,12 @@ python的list可以当栈,
 
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640912974460)
 
-**相当于**
+**相当于**  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641257577774)
 
-
-列表推倒式, 可以嵌套,  **注意: 先算最内层的**
+列表推倒式, 可以嵌套,  **注意: 先算最内层的**  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640913367939)
-**相当于**
+**相当于**  
 
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641257756072)
 
@@ -45,8 +44,8 @@ python的list可以当栈,
 逗号就能 定义元组, (太秀了)  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640914050702)
 
-for()能遍历元组
-**注意: print(,  end = ' ') 可定义分隔符,  改换行符为空格**
+for()能遍历元组  
+**注意: print(,  end = ' ') 可定义分隔符,  改换行符为空格**  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640914065261)
 
 
@@ -55,7 +54,7 @@ divmod()返回元组
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640914291784)
 
 元组可括号定义,  
-元组中元素不可改变(即不可赋值assignment),   亦不可删除
+元组中元素不可改变(即不可赋值assignment),   亦不可删除  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640914452317)
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20211231-1640914513579)
 
@@ -74,11 +73,11 @@ len()是**内置函数或方法**
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641258450419)
 
 **set()传入一个字符串, 只会是一堆char**  
-(不知道python搞这么奇葩,  干啥)
+(不知道python搞这么奇葩,  干啥)  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641258407014)
 
 .pop()随机弹元素  
-.add()添加元素
+.add()添加元素  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641258908865)
 
 ## 字典dict()
@@ -94,11 +93,12 @@ len()是**内置函数或方法**
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641259429520)  
 
 dict()太丑了,  要两层括号  
-就是传入一个元组(),     套元组(k, v)
+就是传入一个元组(),     套元组(k, v)  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641259627221)
 .items() 能遍历每个(k, v)  
 **注意:  返回的是元组**  
 ![图片描述](https://dn-simplecloud.shiyanlou.com/courses/uid1784844-20220104-1641259897884)
+
 ## 考试成绩
 
 
